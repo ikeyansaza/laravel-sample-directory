@@ -194,7 +194,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        // 追加 Provider
+        App\Providers\ValidationServiceProvider::class,
     ],
 
     /*
