@@ -16,6 +16,7 @@ services:
   #アプリケーションのコンテナ
   php-fpm:
     build: ./docker/php-fpm
+    container_name: laravel-sample-directory-php-fpm
     volumes:
       - ./src/:/app
       - ./docker/php-fpm/php.ini:/usr/local/etc/php/php.ini
